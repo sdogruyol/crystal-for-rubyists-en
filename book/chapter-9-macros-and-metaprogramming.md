@@ -11,7 +11,7 @@ P.S: `Macro`s are expanded into code at compile-time.
 
 Check this.
 
-```text
+```ruby
 macro define_method(name, content)
   def {{name}}
     {{content}}
@@ -30,7 +30,7 @@ foo # => 1
 
 In the example we created a macro named `define_method` and we just called that macro like a normal method. That macro expanded into
 
-```text
+```ruby
   def foo
     1
   end

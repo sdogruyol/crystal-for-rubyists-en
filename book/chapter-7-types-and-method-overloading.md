@@ -6,7 +6,7 @@ Unlike Ruby, Crystal is a statically typed and compiled language. Most of the ti
 
 So why do we need types? Let’s start with something simple.
 
-```text
+```ruby
 def add(x, y)
   x + y
 end
@@ -16,7 +16,7 @@ add 3, 5 # 8
 
 This is the same in Ruby! We just defined a method that adds two numbers. What if we try to add a number to a string?
 
-```text
+```ruby
 add 3, "Serdar"
 ```
 
@@ -60,7 +60,7 @@ Okay, that’s quite a scary output but actually it’s great. Our Crystal code 
 
 Now let’s add some types and restrict that method to only accept `Number`s.
 
-```text
+```ruby
 def add(x : Number, y : Number)
   x + y
 end
@@ -70,7 +70,7 @@ puts add 3, "Serdar"
 
 Run it.
 
-```text
+```ruby
 Error in ./types.cr:5: no overload matches 'add' with types Int32, String
 Overloads are:
 - add(x : Number, y : Number)
@@ -89,7 +89,7 @@ Method overloading is having different methods with the same name and different 
 
 Let’s overload our `add` method and make it work with a String.
 
-```text
+```ruby
 def add(x : Number, y : Number)
   x + y
 end

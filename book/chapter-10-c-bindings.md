@@ -8,7 +8,7 @@ For example Crystal uses `libpcre` for it’s `Regex` implementation.
 
 Like I said it’s super easy to write bindings for C. Crystal itself links to `libpcre` like this
 
-```text
+```ruby
 @[Link("pcre")]
 lib LibPCRE
 ...
@@ -19,7 +19,7 @@ With just 3 lines of code you we’re linked to `libpcre` :\) We use `lib` keywo
 
 Next we bind to C functions with the `fun` keyword.
 
-```text
+```ruby
 @[Link("pcre")]
 lib LibPCRE
   type Pcre = Void*
@@ -29,7 +29,7 @@ end
 
 Here we binded to `libpcre`s compile function with the matching types. Now we can easily access this function in our Crystal code.
 
-```text
+```ruby
 LibPCRE.compile(..)
 ```
 

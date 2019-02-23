@@ -25,13 +25,13 @@ Now: Crystal is not perfect. It is getting better. But the point is to _learn_. 
 
 Here’s “Hello World” in Crystal:
 
-```text
+```ruby
 puts "Hello, world!"
 ```
 
 Here’s a concurrent “Hello World” in Crystal:
 
-```text
+```ruby
 channel = Channel(String).new
 10.times do
   spawn {
@@ -43,7 +43,7 @@ end
 
 Here’s a rough port to Ruby:
 
-```text
+```ruby
 10.times.map do
   Thread.new do
     puts "Hello?"

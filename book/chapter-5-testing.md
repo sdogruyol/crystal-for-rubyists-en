@@ -26,7 +26,7 @@ By the way, in this context `spec` and `unit test` means the same so we can use 
 
 Without further ado lets open up `spec/sample_spec.cr`
 
-```text
+```ruby
 require "./spec_helper"
 
 describe Sample do
@@ -74,7 +74,7 @@ crystal spec ./spec/sample_spec.cr:6 # Sample works
 
 Yay! We got a failing\(red\) test. Reading the output we can easily find which spec failed. Here it’s the spec within the group of `Sample` titled `works` a.k.a `Sample works`. Let’s make it pass\(green\).
 
-```text
+```ruby
 require "./spec_helper"
 
 describe Sample do

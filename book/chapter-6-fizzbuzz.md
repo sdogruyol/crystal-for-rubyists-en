@@ -16,7 +16,7 @@ $ crystal init app fizzbuzz
 
 Let’s write our first failing test. Open up `/spec/fizzbuz_spec.cr`
 
-```text
+```ruby
 require "./spec_helper"
 
 describe Fizzbuzz do
@@ -37,7 +37,7 @@ div_by_three(1).should eq(false)
 
 This makes sense: We haven’t defined any method yet. Let’s define one:
 
-```text
+```ruby
 require "./fizzbuzz/*"
 
 def div_by_three(n)
@@ -59,7 +59,7 @@ Finished in 0.82 milliseconds
 
 Awesome! We pass! Let’s write another test, and see what happens:
 
-```text
+```ruby
 require "./spec_helper"
 
 describe Fizzbuzz do
@@ -75,7 +75,7 @@ end
 
 Run it!
 
-```text
+```ruby
 $ crystal spec
 
 .F
@@ -100,7 +100,7 @@ crystal spec ./spec/fizzbuzz_spec.cr:8 # Fizzbuzz should divide 3 by 3
 
 We have 1 failure. Let’s make this pass.
 
-```text
+```ruby
 require "./fizzbuzz/*"
 
 def div_by_three(n)
@@ -114,7 +114,7 @@ end
 
 Run it.
 
-```text
+```ruby
 $ crystal spec
 
 ..
@@ -127,7 +127,7 @@ Awesome! This shows off how `else` work, as well. It’s probably what you expec
 
 Done? How’d you do? Here’s mine:
 
-```text
+```ruby
 def div_by_three(n)
   n % 3 == 0
 end
@@ -154,7 +154,7 @@ Finished in 0.61 milliseconds
 
 Okay! Let’s talk about the main program now. We’ve got the tools to build FizzBuzz, let’s make it work. First thing we need to do is print out all the numbers from one to 100. It’s easy!
 
-```text
+```ruby
 100.times do |num|
   puts num
 end
@@ -164,7 +164,7 @@ Step one: print **something** 100 times. If you run this via `crystal build src/
 
 Now we can put the two together:
 
-```text
+```ruby
 100.times do |num|
   answer = ""
 
@@ -184,7 +184,7 @@ end
 
 Because the `if` returns a value, we could also do something like this:
 
-```text
+```ruby
 (1..100).each do |num|
   answer = if div_by_fifteen num
     "FizzBuzz"

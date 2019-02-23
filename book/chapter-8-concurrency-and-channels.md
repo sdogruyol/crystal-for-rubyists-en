@@ -4,7 +4,7 @@ Did you remember Chapter 1? We did a concurrent Hello World!
 
 Here’s a quick reminder.
 
-```text
+```ruby
 channel = Channel(String).new
 10.times do
   spawn {
@@ -28,13 +28,13 @@ As the name stands a `Channel` is a channel between a sender and the receiver. T
 
 Let’s take a line by line look at our previous example.
 
-```text
+```ruby
 channel = Channel(String).new
 ```
 
 We create a `Channel` with `Channel(String).new`. Note that we are creating a `Channel` which will `send` and `receive` messages with type of `String`.
 
-```text
+```ruby
 10.times do
   spawn {
     channel.send "Hello?"
@@ -47,7 +47,7 @@ Leaving the loop aside, we are sending a message to our channel inside `spawn`. 
 
 Consider this:
 
-```text
+```ruby
 channel = Channel(String).new
 channel.send "Hello?" # This blocks the program execution
 puts channel.receive
@@ -55,7 +55,7 @@ puts channel.receive
 
 What’s the output of this program? Actually this program won’t ever finish because it gets blocked by `channel.send "Hello?"`. Now that we know why we use `spawn` to send a message let’s continue.
 
-```text
+```ruby
 spawn {
   channel.send "Hello?"
 }

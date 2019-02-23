@@ -10,7 +10,7 @@ $ vim hello.cr
 
 Put this in it:
 
-```text
+```ruby
 puts "Hello World!"
 ```
 

@@ -79,7 +79,7 @@ dependencies:
 
 That’s great! Now we added `Kemal` to our project. First, we need to install it.
 
-```text
+```
 $ shards install
 Updating https://github.com/sdogruyol/kemal.git
 Updating https://github.com/luislavena/radix.git
@@ -91,7 +91,7 @@ Installing kilt (0.3.3)
 
 Okay now we are ready to use `Kemal` in our project. Open up `src/sample.cr`
 
-```text
+```ruby
 require "./sample/*"
 require "kemal"
 

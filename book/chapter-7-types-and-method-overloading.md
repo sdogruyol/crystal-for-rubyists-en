@@ -81,7 +81,7 @@ puts add 3, "Serdar"
 
 Awesome! Our program didn’t compile again. And this time with shorter and more accurate error output. We just used `type restriction` on `x` and `y`. We restricted them to be `Number` and Crystal is smart enough to stop us from using the method with a `String`.
 
-### Method Overloading <a id="method-overloading"></a>
+## Method Overloading  <a id="method-overloading"></a>
 
 We just saw a lot of overloads. Let’s talk about `Method Overloading`.
 

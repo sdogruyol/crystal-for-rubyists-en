@@ -12,7 +12,7 @@ I love new programming languages, and while I've been using Ruby for the past fe
 
 **Why Crystal?**
 
-[The first section of the book discusses this](http://www.crystalforrubyists.com/book/book.html#why-crystal) and i've written [a blog post](http://serdardogruyol.com/why-crystal) dedicated to this, but basically, Crystal is good at everything Ruby is bad at...plus as a Rubyist you already know Crystal.
+[The first section of the book discusses this](http://www.crystalforrubyists.com/book/book.html#why-crystal), I've written [a blog post](http://serdardogruyol.com/why-crystal) dedicated to this, but basically, Crystal is good at everything Ruby is not good at...plus as a Rubyist you already know some Crystal.
 
 **What am I getting?**
 
@@ -20,5 +20,5 @@ Basically, you can [read the whole thing online for free](http://www.crystalforr
 
 **Do I have to know Ruby?**
 
-Really, I love alliteration: the only thing the 'for Rubyists' really means is that I assume you don't know about types, pointers, concurrency, or similar things. That's okay, you've never had to think about them before! I explain this stuff in extra depth. If you program in another dynamically typed language, you'll be just fine. If you program in another typed language, you'll be more than fine.
+Really, I love alliteration: the only thing the **'for Rubyists'** really means is that I assume you don't know about types, pointers, concurrency, or similar things. That's okay, you've never had to think about them before! I explain this stuff in extra depth. If you program in another dynamically typed language, you'll be just fine. If you program in another typed language, you'll be more than fine.
 

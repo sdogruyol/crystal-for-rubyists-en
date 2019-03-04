@@ -22,7 +22,7 @@ Okay, that’s really cool! We can use `spawn` to make stuff work in the backgro
 
 Now that’s where `Channel`s come to play.
 
-### Channel <a id="channel"></a>
+## Channel  <a id="channel"></a>
 
 As the name stands a `Channel` is a channel between a sender and the receiver. Therefore a `Channel` lets each other communicate with `send` and `receive` methods.
 

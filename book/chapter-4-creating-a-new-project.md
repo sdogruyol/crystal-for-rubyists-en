@@ -41,7 +41,7 @@ Nothing! Yay :\)
 
 Now that we create our first project. Let’s use some external libraries.
 
-### Using Shards for dependency management <a id="using-shards-for-dependency-management"></a>
+## Using Shards for dependency management  <a id="using-shards-for-dependency-management"></a>
 
 To manage dependencies of a project we use `shards`. `shards` is like `bundler` and `shard.yml` is like `Gemfile`.
 
@@ -79,7 +79,7 @@ dependencies:
 
 That’s great! Now we added `Kemal` to our project. First, we need to install it.
 
-```
+```text
 $ shards install
 Updating https://github.com/sdogruyol/kemal.git
 Updating https://github.com/luislavena/radix.git

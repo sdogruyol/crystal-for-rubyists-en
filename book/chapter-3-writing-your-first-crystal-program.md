@@ -1,6 +1,6 @@
 # Chapter 3: Writing Your First Crystal Program
 
-## Writing Your First Crystal Program <a id="writing-your-first-crystal-program"></a>
+## Writing Your First Crystal Program  <a id="writing-your-first-crystal-program"></a>
 
 Okay! Let’s get down to it: in order to call yourself an “X Programmer,” you must write “Hello, world” in X. So let’s do it. Open up a text file: I’ll use `vim` because I’m that kind of guy, but use whatever you want. Crystal programs end in `.cr`:
 

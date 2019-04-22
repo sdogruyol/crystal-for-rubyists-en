@@ -12,7 +12,7 @@ I love new programming languages, and while I've been using Ruby for the past fe
 
 **Why Crystal?**
 
-[The first section of the book discusses this](http://www.crystalforrubyists.com/book/book.html#why-crystal), I've written [a blog post](http://serdardogruyol.com/why-crystal) dedicated to this, but basically, Crystal is good at everything Ruby is not good at...plus as a Rubyist you already know some Crystal.
+I've written [a blog post](http://serdardogruyol.com/why-crystal) dedicated to this, but basically, Crystal is good at everything Ruby is not good at...plus as a Rubyist you already know some Crystal.
 
 **What am I getting?**
 

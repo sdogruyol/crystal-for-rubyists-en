@@ -22,12 +22,12 @@ Initialized empty Git repository in /Users/serdar/crystal_for_rubyists/code/04/s
 
 Awesome. `crystal` helped us create a new project. Let’s see what it did for us.
 
-* Created a new folder named sample
-* Created a LICENSE
+* Created a new folder named sample.
+* Created a LICENSE.
 * Created `.travis.yml` to easily integrate Travis for continous integration.
 * Created `shard.yml` for dependency management.
-* Initialized an empty Git repository
-* Created a README for our project
+* Initialized an empty Git repository.
+* Created a README for our project.
 * Created `src` and `spec` folders to put our code and tests\(ssh..we’ll talk about it soon\) in it.
 
 Let’s run it.
@@ -59,7 +59,7 @@ license: MIT
 
 This is a default `shard.yml` and it contains the minimal necessary information about our project. Those are
 
-* `name` specifies the name of the project
+* `name` specifies the name of the project.
 * `version` specifies the version of the project. Crystal itself uses [semver](http://semver.org/) for version management so it’s a good convention for you to follow.
 * `authors` section specifies the authors of the project. By default this is taken from your global `git` configuration.
 * `license` specifies the type of your project license. By default this is `MIT`.
@@ -118,4 +118,3 @@ $ crystal src/sample.cr
 Go to `localhost:3000` and see it in action!
 
 Now you know how to add dependencies and use others’ `shard`s :\)
-

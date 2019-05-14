@@ -12,7 +12,7 @@ Note that this book has been tested with Crystal 0.28.0, and so if you use the l
 
 You will probably build the nightly version if you build from source, so be ready for some bugs in the code samples. This book was written for 0.28.0.
 
-The [Crystal README](http://crystal-lang.org/docs/installation/from_source_repository.html) has great instructions for building form source. Just got follow their instructions!
+The [Crystal README](http://crystal-lang.org/docs/installation/from_source_repository.html) has great instructions for building from source. Just got follow their instructions!
 
 #### Future Proofing <a id="future-proofing"></a>
 
@@ -25,4 +25,3 @@ $ crystal
 ```
 
 and it spits out a bunch of help information, you’re good to go with Crystal.
-

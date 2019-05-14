@@ -2,7 +2,7 @@
 
 There are lots of useful C libraries out there. It’s important that we make use of them instead of rewriting every single of them.
 
-In Crystal, It’s super easy to use existing C libraries with bindings. Even Crystal itself uses C libraries.
+In Crystal, it’s super easy to use existing C libraries with bindings. Even Crystal itself uses C libraries.
 
 For example Crystal uses `libpcre` for it’s `Regex` implementation.
 
@@ -32,4 +32,3 @@ Here we binded to `libpcre`s compile function with the matching types. Now we ca
 ```ruby
 LibPCRE.compile(..)
 ```
-

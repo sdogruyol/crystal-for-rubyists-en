@@ -30,7 +30,7 @@ Syntax error in ./hello.cr:1: unterminated char literal, use double quotes for s
 puts 'Hello World!'
 ```
 
-By the way `crystal` command is great for quickly running your code but it’s slow. Each time it compiles and runs your program Let’s see how much does it takes to run that program.
+By the way `crystal` command is great for quickly running your code but it’s slow. Each time it compiles and runs your program. Let’s see how much does it takes to run that program.
 
 ```text
 $ time crystal hello.cr
@@ -52,5 +52,4 @@ $ time ./hello
 ./hello  0.00s user 0.00s system 87% cpu 0.006 total
 ```
 
-You should see “Hello, world.” print to the screen 50x faster :\) Congrats!
-
+You should see “Hello world!” print to the screen 50x faster :\) Congrats!

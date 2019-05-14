@@ -24,7 +24,7 @@ Did you see that `spec` folder? Yes, as you guess Crystal created this folder an
 
 By the way, in this context `spec` and `unit test` means the same so we can use them interchangeably.
 
-Without further ado lets open up `spec/sample_spec.cr`
+Without further ado let’s open up `spec/sample_spec.cr`
 
 ```ruby
 require "./spec_helper"
@@ -98,4 +98,3 @@ Finished in 0.63 milliseconds
 ```
 
 Green! That’s all you need to know to get started. Next up: FizzBuzz.
-

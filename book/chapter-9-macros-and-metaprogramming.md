@@ -1,6 +1,6 @@
 # Chapter 9: Macros and Metaprogramming
 
-We love Ruby because of its’ dynamic nature and metaprogramming! Unlike Ruby, Crystal is a compiled language. That’s why there are some key differences.
+We love Ruby because of its dynamic nature and metaprogramming! Unlike Ruby, Crystal is a compiled language. That’s why there are some key differences.
 
 * There’s no `eval`.
 * There’s no `send`.
@@ -40,5 +40,4 @@ Pretty cool! We got `eval` behaviour at compile-time.
 
 Macros are really powerful but there’s one rule that you can’t break.
 
-_**A macro should expand into a valid Crystal program**_
-
+_**A macro should expand into a valid Crystal program.**_

@@ -18,7 +18,7 @@ In Crystal we use the keyword `spawn` to make something work in the background w
 
 To achieve this `spawn` creates a lightweight thread called `Fiber`. `Fiber`s are very cheap to create and you can easily create tens of thousands of `Fiber`s on a single core.
 
-Okay, that’s really cool! We can use `spawn` to make stuff work in the background but how do we get something back from a `Fiber`.
+Okay, that’s really cool! We can use `spawn` to make stuff work in the background but how do we get something back from a `Fiber`?
 
 Now that’s where `Channel`s come to play.
 
@@ -63,4 +63,3 @@ puts channel.receive
 ```
 
 We just sent a message through our channel in the background with `spawn`. Then we receive it back with `channel.receive`. In this example the message is `Hello?` so this program prints `Hello?`and then finishes.
-

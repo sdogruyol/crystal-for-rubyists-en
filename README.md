@@ -16,9 +16,8 @@ I've written [a blog post](http://serdardogruyol.com/why-crystal) dedicated to t
 
 **What am I getting?**
 
-Basically, you can [read the whole thing online for free](http://www.crystalforrubyists.com/book/index.html)
+Basically, you can [read the whole thing online for free](http://www.crystalforrubyists.com/book/chapter-1-why-crystal)
 
 **Do I have to know Ruby?**
 
 Really, I love alliteration: the only thing the **'for Rubyists'** really means is that I assume you don't know about types, pointers, concurrency, or similar things. That's okay, you've never had to think about them before! I explain this stuff in extra depth. If you program in another dynamically typed language, you'll be just fine. If you program in another typed language, you'll be more than fine.
-

@@ -117,5 +117,5 @@ $ crystal src/sample.cr
 
 Go to `localhost:3000` and see it in action!
 
-Now you know how to add dependencies and use others’ `shard`s :\)
+Now you know how to add dependencies and use others’ `shards` :\)
 

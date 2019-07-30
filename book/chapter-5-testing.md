@@ -40,7 +40,7 @@ end
 
 Now this file is pretty interesting. There a three important keywords, `describe`, `it` and `should`.
 
-Those keywords are only used in `spec`s with the following purposes.
+Those keywords are only used in `specs` with the following purposes.
 
 * `describe` lets you group related specs.
 * `it` is used for defining a spec with the given title in between “”.

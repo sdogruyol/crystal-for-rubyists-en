@@ -45,6 +45,10 @@ Now that we create our first project. Let’s use some external libraries.
 
 To manage dependencies of a project we use `shards`. `shards` is like `bundler` and `shard.yml` is like `Gemfile`.
 
+* [awesome-crystal](https://github.com/veelenga/awesome-crystal) has a curated list of Crystal shards.
+* [CrystalShards.xyz] lists all of the available Crystal shards on GitHub (similar to rubygems.org)
+* [Here is a list of some popular Ruby gems that have been ported to Crystal](https://github.com/crystal-lang/crystal/wiki/Crystal-Shards-for-Ruby-Gems).
+
 Let’s open up `shard.yml`.
 
 ```text
@@ -118,4 +122,3 @@ $ crystal src/sample.cr
 Go to `localhost:3000` and see it in action!
 
 Now you know how to add dependencies and use others’ `shard`s :\)
-

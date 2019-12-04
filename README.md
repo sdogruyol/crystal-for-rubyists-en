@@ -22,3 +22,8 @@ Basically, you can [read the whole thing online for free](http://www.crystalforr
 
 Really, I love alliteration: the only thing the **'for Rubyists'** really means is that I assume you don't know about types, pointers, concurrency, or similar things. That's okay, you've never had to think about them before! I explain this stuff in extra depth. If you program in another dynamically typed language, you'll be just fine. If you program in another typed language, you'll be more than fine.
 
+**Where can I find some Crystal Libraries (Shards)?**
+
+* [awesome-crystal](https://github.com/veelenga/awesome-crystal) has a curated list of Crystal shards.
+* [CrystalShards.xyz] lists all of the available Crystal shards on GitHub (similar to rubygems.org)
+* [Here is a list of some popular Ruby gems that have been ported to Crystal](https://github.com/crystal-lang/crystal/wiki/Crystal-Shards-for-Ruby-Gems).

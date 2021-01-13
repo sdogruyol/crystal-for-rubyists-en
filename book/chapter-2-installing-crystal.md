@@ -4,7 +4,7 @@
 
 The Crystal project provides official binary installers. You can get both releases and nightlies. Binary installers are the fastest and easiest way to get going with Crystal. Because Crystal is written in Crystal, compiling the Crystal compiler actually entails compiling it three times! This means it’s quite slow. But a binary install should be snappy!
 
-Crystal has a [lovely installation page](http://crystal-lang.org/docs/installation/index.html), so I recommend you just go check that out and download the proper version.
+Crystal has a [lovely installation page](https://crystal-lang.org/install), so I recommend you just go check that out and download the proper version.
 
 Note that this book has been tested with Crystal 0.28.0, and so if you use the latest nightly, something may have changed.
 

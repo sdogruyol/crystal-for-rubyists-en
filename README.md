@@ -25,5 +25,5 @@ Really, I love alliteration: the only thing the **'for Rubyists'** really means 
 **Where can I find some Crystal Libraries (Shards)?**
 
 * [awesome-crystal](https://github.com/veelenga/awesome-crystal) has a curated list of Crystal shards.
-* [CrystalShards.xyz](http://crystalshards.xyz/) lists all of the available Crystal shards on GitHub (similar to rubygems.org)
+* [crystalshards.org](https://crystalshards.org/) lists all of the available Crystal shards on GitHub (similar to rubygems.org)
 * [Here is a list of some popular Ruby gems that have been ported to Crystal](https://github.com/crystal-lang/crystal/wiki/Crystal-Shards-for-Ruby-Gems).

@@ -88,7 +88,7 @@ Failures:
        expected: true
             got: false
 
-     # ./spec/fizzbuzz_spec.cr:9
+     # spec/fizzbuzz_spec.cr:9
 
 Finished in 0.83 milliseconds
 2 examples, 1 failures, 0 errors, 0 pending

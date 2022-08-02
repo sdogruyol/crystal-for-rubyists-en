@@ -9,12 +9,11 @@ For example we can use it to create a new Crystal project.
 ```text
 $ crystal init app sample
   create  sample/.gitignore
+  create  sample/.editorconfig
   create  sample/LICENSE
   create  sample/README.md
-  create  sample/.travis.yml
   create  sample/shard.yml
   create  sample/src/sample.cr
-  create  sample/src/sample/version.cr
   create  sample/spec/spec_helper.cr
   create  sample/spec/sample_spec.cr
 Initialized empty Git repository in /Users/serdar/crystal_for_rubyists/code/04/sample/.git/
@@ -24,7 +23,6 @@ Awesome. `crystal` helped us create a new project. Let’s see what it did for u
 
 * Created a new folder named sample
 * Created a LICENSE
-* Created `.travis.yml` to easily integrate Travis for continous integration.
 * Created `shard.yml` for dependency management.
 * Initialized an empty Git repository
 * Created a README for our project
@@ -58,6 +56,12 @@ version: 0.1.0
 authors:
   - sdogruyol <dogruyolserdar@gmail.com>
 
+targets:
+  sample:
+    main: src/sample.cr
+
+crystal: 1.5.0
+
 license: MIT
 ```
 
@@ -66,31 +70,37 @@ This is a default `shard.yml` and it contains the minimal necessary information 
 * `name` specifies the name of the project
 * `version` specifies the version of the project. Crystal itself uses [semver](http://semver.org/) for version management so it’s a good convention for you to follow.
 * `authors` section specifies the authors of the project. By default this is taken from your global `git` configuration.
+* `crystal` specifies the version of Crystal that the project is using.
 * `license` specifies the type of your project license. By default this is `MIT`.
 
 Okay. That’s great but what can we do with this `shard.yml`? Well we can use this file to add external libraries\(we call it dependency\) and manage them without even worrying about any folders / paths e.g.. Sweet isn’t it?
 
-Now that we know the true power of `shards` let’s add [Kemal](https://github.com/sdogruyol/kemal) to our `shard.yml` and build a simple web application :\)
+Now that we know the true power of `shards` let’s add [Kemal](https://github.com/kemalcr/kemal) to our `shard.yml` and build a simple web application :\)
 
 Open up `shard.yml`. First we need to add `Kemal` as a dependency to our project. We do this by including
 
 ```text
 dependencies:
   kemal:
-    github: sdogruyol/kemal
-    version: 0.14.1
+    github: kemalcr/kemal
+    version: 1.2.0
 ```
 
 That’s great! Now we added `Kemal` to our project. First, we need to install it.
 
 ```text
 $ shards install
-Updating https://github.com/sdogruyol/kemal.git
-Updating https://github.com/luislavena/radix.git
-Updating https://github.com/jeromegn/kilt.git
-Installing kemal (0.14.1)
-Installing radix (0.3.0)
-Installing kilt (0.3.3)
+Resolving dependencies
+Fetching https://github.com/kemalcr/kemal.git
+
+Fetching https://github.com/luislavena/radix.git
+Fetching https://github.com/crystal-loot/exception_page.git
+Fetching https://github.com/sija/backtracer.cr.git
+Installing radix (0.4.1)
+Installing backtracer (1.2.1)
+Installing exception_page (0.2.2)
+Installing kemal (1.2.0)
+Writing shard.lock
 ```
 
 Okay now we are ready to use `Kemal` in our project. Open up `src/sample.cr`

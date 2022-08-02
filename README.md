@@ -6,9 +6,9 @@
 
 **Who are you?**
 
-I'm [**Serdar Dogruyol**](https://github.com/sdogruyol), and I've been a Rubyist for years now. I'm the creator of [Kemal](http://kemalcr.com/), curator of [Crystal Weekly](http://www.crystalweekly.com/) and a [prolific Open Source contributor](https://github.com/sdogruyol).
+I'm [**Serdar Dogruyol**](https://github.com/sdogruyol), and I've been a Crystalian for years now. I'm the author of [Kemal](http://kemalcr.com/), curator of [Crystal Weekly](http://www.crystalweekly.com/) and a [Crystal Core Member](https://github.com/orgs/crystal-lang/people).
 
-I love new programming languages, and while I've been using Ruby for the past few years, I've coded in Java, PHP, Crystal, Elixir and a host of others. I also love writing, and good documentation, which is hard to find. Crystal doesn't have a lot of that yet, so I'm pitching in!
+I love new programming languages, and while I've been using Ruby for the past years, I've coded in Java, PHP, Crystal, Elixir and a host of others. I also love writing, and good documentation, which is hard to find. Crystal doesn't have a lot of that yet, so I'm pitching in!
 
 **Why Crystal?**
 

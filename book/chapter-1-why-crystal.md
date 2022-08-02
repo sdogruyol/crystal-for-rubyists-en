@@ -33,6 +33,7 @@ Here’s a concurrent “Hello World” in Crystal:
 
 ```ruby
 channel = Channel(String).new
+
 10.times do
   spawn {
     channel.send "Hello?"

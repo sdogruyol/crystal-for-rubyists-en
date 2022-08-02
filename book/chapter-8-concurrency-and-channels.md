@@ -6,6 +6,7 @@ Here’s a quick reminder.
 
 ```ruby
 channel = Channel(String).new
+
 10.times do
   spawn {
     channel.send "Hello?"

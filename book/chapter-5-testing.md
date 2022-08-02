@@ -15,8 +15,6 @@ $ cd sample && tree
   -- sample_spec.cr
   -- spec_helper.cr
 -- src
-  -- sample
-    -- version.cr
   -- sample.cr
 ```
 
@@ -59,17 +57,17 @@ Failures:
   1) Sample works
      Failure/Error: false.should eq(true)
 
-       expected: true
+       Expected: true
             got: false
 
-     # ./spec/sample_spec.cr:7
+     # spec/sample_spec.cr:7
 
-Finished in 0.69 milliseconds
+Finished in 420 microseconds
 1 examples, 1 failures, 0 errors, 0 pending
 
 Failed examples:
 
-crystal spec ./spec/sample_spec.cr:6 # Sample works
+crystal spec spec/sample_spec.cr:6 # Sample works
 ```
 
 Yay! We got a failing\(red\) test. Reading the output we can easily find which spec failed. Here it’s the spec within the group of `Sample` titled `works` a.k.a `Sample works`. Let’s make it pass\(green\).
@@ -93,7 +91,7 @@ $ crystal spec
 
 .
 
-Finished in 0.63 milliseconds
+Finished in 383 microseconds
 1 examples, 0 failures, 0 errors, 0 pending
 ```
 

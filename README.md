@@ -16,7 +16,7 @@ I've written [a blog post](http://serdardogruyol.com/why-crystal) dedicated to t
 
 **What am I getting?**
 
-Basically, you can [read the whole thing online for free](http://www.crystalforrubyists.com/book/index.html)
+Basically, you can read the whole thing online for free!
 
 **Do I have to know Ruby?**
 

@@ -92,7 +92,6 @@ That’s great! Now we added `Kemal` to our project. First, we need to install i
 $ shards install
 Resolving dependencies
 Fetching https://github.com/kemalcr/kemal.git
-
 Fetching https://github.com/luislavena/radix.git
 Fetching https://github.com/crystal-loot/exception_page.git
 Fetching https://github.com/sija/backtracer.cr.git
@@ -106,7 +105,6 @@ Writing shard.lock
 Okay now we are ready to use `Kemal` in our project. Open up `src/sample.cr`
 
 ```ruby
-require "./sample/*"
 require "kemal"
 
 module Sample

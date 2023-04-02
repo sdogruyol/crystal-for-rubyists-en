@@ -49,7 +49,7 @@ As you can see this file has a group `describe`d as `Sample` and `it` has one sp
 You might be asking ‘How do we run these tests?’. Well `crystal` command to the rescue.
 
 ```ruby
-$ crystal spec
+$ KEMAL_ENV=test crystal spec
 F
 
 Failures:
@@ -87,7 +87,7 @@ end
 Rerun the specs.
 
 ```ruby
-$ crystal spec
+$ KEMAL_ENV=test crystal spec
 
 .
 
